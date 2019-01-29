@@ -33,12 +33,13 @@
 extern "C" {
 #endif
 
-#define BLOCK_DIFFICULTY_INTERVAL 2016 // number of blocks between difficulty target adjustments
+#define BLOCK_DIFFICULTY_INTERVAL 1 // number of blocks between difficulty target adjustments
 #define BLOCK_UNKNOWN_HEIGHT      INT32_MAX
 #define BLOCK_MAX_TIME_DRIFT      (2*60*60) // the furthest in the future a block is allowed to be timestamped
 
 typedef struct {
     UInt256 blockHash;
+    UInt256 powHash;
     uint32_t version;
     UInt256 prevBlock;
     UInt256 merkleRoot;
