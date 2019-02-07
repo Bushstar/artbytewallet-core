@@ -51,6 +51,7 @@
 
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
     {       0, "02e890de125e4e85965ed783e85be2e7f63f5c1cf59ed997c4796d8d987bf9a4", 1501675200, 0x1e0ffff0 }
+    { 1210000, "7390a819b90356c4320af2f5066fd2fda6a2dff83547e80ca8d00ba1e547fd6f", 1548686578, 0x1b158f0d }
 };
 
 static const char *dns_seeds[] = {
